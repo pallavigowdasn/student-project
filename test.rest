@@ -1,0 +1,34 @@
+
+GET http://localhost:1111/itemlist
+
+
+###
+POST http://localhost:1111/itemlist
+Content-Type: application/json
+
+{
+    "name":"yogesh",
+    "price":"7th",
+    "details":"700"
+}
+
+
+###
+GET http://localhost:1111/itemlist/6558acbb08ecda49c050e6a7
+
+
+###
+PUT http://localhost:1111/itemlist
+Content-Type: application/json
+
+{
+    "itemid":"6558acbb08ecda49c050e6a7",
+    "name":"my pallavi",
+    "price":"8th",
+    "details":"650"
+}
+
+
+###
+DELETE http://localhost:1111/itemlist/653ce50c495d89437adb5e4c
+
